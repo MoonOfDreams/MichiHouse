@@ -1,9 +1,9 @@
-@import url("index.css");
-@import url("register.css");
-@import url("gracias.css");
-@import url("login.css");
-@import url("gatito.css");
-@import url("adopcion.css");
+@import url("./css/adopcion.css");
+@import url("./css/gatito.css");
+@import url("./css/gracias.css");
+@import url("./css/gracias.css");
+@import url("./css/login.css");
+@import url("./css/register.css");
 :root {
   --rosita: #ffc7ea;
   --violeta: #d8b4f8;
