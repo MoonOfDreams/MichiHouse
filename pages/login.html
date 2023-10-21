@@ -15,7 +15,7 @@
       src="https://kit.fontawesome.com/4c68e59795.js"
       crossorigin="anonymous"
     ></script>
-    <title>Michi House</title>
+    <title>Michi Login</title>
   </head>
   <body>
     <header>
@@ -34,24 +34,19 @@
       </div>
     </header>
     <main>
-      <form action="gracias.html">
-        <h1>Bienvenidos a Michi House </h1>
-           <label for="nombre">Indica tu nombre:</label>
-           <input type="text"  name="nombre">
-           <label for="apellido">indica tu apellido:</label>
-           <input type="text"  name="apellido">
-           <label for="alias">indica tu alias:</label>
-           <input type="text"  name="alias">
-           <label for="email">indica tu email:</label>
-           <input type="email" iname="email">
-           <label for="contraseña">indica tu contraseña:</label>
-           <input type="password"  name="contraseña">
-           <label for="avatar">elegi una foto de perfil:</label>
-           <input type="image" name="avatar">
-           <label for="recordame">guardar sesion:</label>
-           <input type="checkbox" name="recordame">
-           <button type="submit">Registarme </button>
-       </form>
+      <h1>¡Bienvenido otra vez!</h1>
+      <form action="./gracias.html">
+        <div class="form">
+          <label for="email">Ingresa tu email:</label>
+          <input id="email" type="email" />
+          <label for="contraseña">Ingresa tu contraseña</label>
+          <input id="contraseña" type="password" />
+          <div class="btn"><button type="submit">Iniciar Session</button></div>
+        </div>
+      </form>
+      <div class="volver">
+        <a href="index.html"><button>Volver al inicio</button></a>
+      </div>
     </main>
     <footer>
       <h4>Michi house esta hecha por Moon Of Dreams 2023</h4>

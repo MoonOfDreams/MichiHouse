@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4c68e59795.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Michi House</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"><img src="../img/michiLogo.png" /></a>
+        <div class="busqueda-login">
+          <div class="buscar">
+            <input type="text" placeholder="buscar por..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="register_login">
+            <a href="register.html"><button>registrate</button></a>
+            <a href="login.html"><button>inicia sesión</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form action="gracias.html">
+        <h1>¡Bienvenido al formulario de adopciones!</h1>
+        <p>
+          Hola amante de los gatos,gracias por desear adoptar un gatito sin
+          hogar para continuar el proceso de adopcion te pido que llenes este
+          formulario y alguien del equipo se pondra en contacto contigo.
+        </p>
+        <fieldset>
+          <legend>Información Personal</legend>
+          <label for="nombre">Ingresa tu nombre: </label>
+          <input type="text" name="nombre" />
+          <label for="numero">ingresa tu numero de telefono</label>
+          <input type="tel" name="numero" />
+          <label for="email">Ingresa tu email</label>
+          <input type="email" name="email" />
+        </fieldset>
+        <fieldset>
+          <legend>Información del michi</legend>
+          <label for="nombre">Ingresa su nombre: </label>
+          <input type="text" name="nombre" />
+          <label for="genero">Ingresa su genero: </label>
+          <input type="text" name="nombre" />
+          <label for="michi">ingresa la raza de gatito</label>
+          <select name="michi">
+            <option value="opcion">Ingresa una opcion</option>
+            <option value="persa">gatito persa</option>
+            <option value="naranja">gatito naranja</option>
+            <option value="esfinge">gatito esfinge</option>
+            <option value="negro">gatito negro</option>
+          </select>
+        </fieldset>
+        <div class="btn"><button type="submit">Adoptar</button></div>
+      </form>
+      <div class="volver">
+        <a href="index.html"><button>Volver al inicio</button></a>
+      </div>
+    </main>
+    <footer>
+      <h4>Michi house esta hecha por Moon Of Dreams 2023</h4>
+    </footer>
+  </body>
+</html>
