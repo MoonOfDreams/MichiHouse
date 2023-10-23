@@ -1,5 +1,89 @@
+main article {
+  box-shadow: 5px 5px 10px rgb(177, 148, 113);
+  background-color: var(--amarillito);
+  border-radius: 10px;
+  border-style: inset;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  width: 300px;
+}
+@media (min-width:600px) {
+
+
+  main article {
+    width: 45%;
+    box-shadow: 5px 5px 10px rgb(177, 148, 113);
+    background-color: var(--amarillito);
+    border-radius: 10px;
+    border-style: inset;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tipoMichi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width:768px) {
+  main .gatos .tipoMichi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap:wrap;
+  gap: 15px;
+}
+
+
+main article {
+  width: 90%;
+  box-shadow: 5px 5px 10px rgb(177, 148, 113);
+  background-color: var(--amarillito);
+  border-radius: 10px;
+  border-style: inset;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width) {
+  
 main .gatos .tipoMichi {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap:wrap;
+  gap: 15px;
+}
+
+
+main article {
+  width: 90%;
+  box-shadow: 5px 5px 10px rgb(177, 148, 113);
+  background-color: var(--amarillito);
+  border-radius: 10px;
+  border-style: inset;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}}
+
+
+@media (min-width:768px) {
+  
+main .gatos .tipoMichi {
+  display: flex;
+  flex-direction: row;
 }
 main article {
   width: 90%;
@@ -9,8 +93,10 @@ main article {
   border-style: inset;
   display: flex;
   padding: 10px;
+  height: 517px;
   width: 300px;
   margin: 5px;
   align-items: center;
   flex-direction: column;
 }
+}}

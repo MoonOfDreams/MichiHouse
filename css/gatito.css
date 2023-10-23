@@ -1,6 +1,7 @@
 .importante {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -11,16 +12,20 @@
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid snow;
-  width:60%;
+  width:90%;
 }
+
+main .img {
+  display: flex;
+  justify-content: center;
+}
+
 main .img img {
-  width: 400px !important;
   height: max-content;
   align-items: center;
   align-self: stretch;
 }
 p {
-  display: flex !important;
-  margin: 0 !important;
-  padding: 15px;
+  font-size: 18px;
+  padding: 5px;
 }
