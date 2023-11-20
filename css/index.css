@@ -11,9 +11,20 @@ main article {
   flex-direction: column;
   width: 300px;
 }
+
+.validado{
+  color: green;
+}
+.invalido{
+  color: red;
+}
 @media (min-width:600px) {
 
-
+main .gatos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
   main article {
     width: 45%;
     box-shadow: 5px 5px 10px rgb(177, 148, 113);
@@ -26,14 +37,14 @@ main article {
     align-items: center;
     flex-direction: column;
   }
-  .tipoMichi{
+  .carousel{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
 @media (min-width:768px) {
-  main .gatos .tipoMichi {
+  main .gatos .carousel{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +67,7 @@ main article {
 }
 @media (min-width) {
   
-main .gatos .tipoMichi {
+main .gatos .carousel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,10 +92,7 @@ main article {
 
 @media (min-width:768px) {
   
-main .gatos .tipoMichi {
-  display: flex;
-  flex-direction: row;
-}
+
 main article {
   width: 90%;
   box-shadow: 5px 5px 10px rgb(177, 148, 113);
@@ -98,5 +106,20 @@ main article {
   margin: 5px;
   align-items: center;
   flex-direction: column;
+}
+.carousel{
+  display: flex;
+  justify-content: center;
+}
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
 }
 }}

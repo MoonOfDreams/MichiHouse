@@ -5,3 +5,10 @@ fieldset{
     font-size: 1.3rem;
     width: 90%;
 }
+iframe{
+ width:90%;
+ height:auto;
+}
+h2{
+    margin: 10px;
+}

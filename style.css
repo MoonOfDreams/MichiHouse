@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -87,13 +88,17 @@ main h1 {
   font-size: 25px;
   text-align: center;
 }
-main h4{
+main h4 {
   font-size: 26px;
 }
-.btn{
-  width:50px;
+.btn {
+  width: 50px;
   justify-content: center;
 }
+li{
+  list-style: none;
+  display: flex;
+justify-content: center;}
 button {
   padding: 3px;
   background-color: #ffc7ea;
@@ -133,6 +138,7 @@ img {
   height: 150px;
   margin: 15px;
 }
+
 form {
   justify-content: center;
   box-shadow: 5px 5px 10px rgb(177, 148, 113);
@@ -163,7 +169,7 @@ footer {
     padding: 10px;
   }
   main button {
-    padding: 10px;
+    gap: 10px;
   }
   header div.header div.register_login {
     gap: 40px;
@@ -172,10 +178,10 @@ footer {
     padding: 10px;
   }
 }
-@media(min-width:600px){
+@media (min-width: 600px) {
   header div.header div.busqueda-login {
-   flex-direction:row;
-}
+    flex-direction: row;
+  }
 }
 @media (min-width: 768px) {
   body {
@@ -190,7 +196,11 @@ footer {
 
     padding: 10px;
   }
-
+.elfsight-app-375ceb57-d447-4c12-85d6-05d2f1bcf560{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
   header div.header {
     display: flex;
     gap: 15px;
@@ -273,7 +283,8 @@ footer {
   h1,
   h2,
   h3,
-  h4,h5{
+  h4,
+  h5 {
     font-size: 3rem;
     font-family: "Ingrid Darling", cursive;
     padding: 10px;

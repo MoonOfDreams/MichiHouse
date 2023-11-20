@@ -4,7 +4,11 @@
   flex-direction: column;
   justify-content: center;
 }
-
+.tipoMichi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .dato {
   display: flex;
   flex-direction: column;
@@ -21,7 +25,6 @@ main .img {
 }
 
 main .img img {
-  height: max-content;
   align-items: center;
   align-self: stretch;
 }
@@ -29,3 +32,4 @@ p {
   font-size: 18px;
   padding: 5px;
 }
+
